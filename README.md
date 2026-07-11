@@ -37,3 +37,59 @@ Recent advances in transfer learning have enabled highly accurate image-based di
 
 This project addresses this gap through a comprehensive comparative study of five widely adopted transfer learning architectures under a common experimental setup, providing insights into the trade-offs between classification performance, computational complexity, and deployment efficiency.
 
+---
+
+# 📂 Dataset
+
+| Property | Value |
+|----------|-------|
+| Crop | Cotton |
+| Total Images | 1711 |
+| Classes | 4 |
+| Source | Kaggle (Serosh Karim) |
+
+### Disease Classes
+
+- Healthy
+- Bacterial Blight
+- Curl Virus
+- Fusarium Wilt
+
+The dataset contains field images collected under real-world conditions, making it suitable for benchmarking transfer learning models for agricultural disease classification.
+
+---
+
+# ⚙️ Experimental Pipeline
+
+```text
+Cotton Leaf Images
+        │
+        ▼
+Image Preprocessing & Augmentation
+        │
+        ▼
+Transfer Learning Models
+(MobileNetV3, ResNet50, DenseNet121,
+ EfficientNet-B0, VGG16)
+        │
+        ▼
+Training & Validation
+        │
+        ▼
+Performance Evaluation
+        │
+        ▼
+Model Comparison
+```
+---
+
+# 🧠 Transfer Learning Models
+
+| Model | Purpose |
+|--------|----------|
+| MobileNetV3 | Lightweight mobile deployment |
+| ResNet50 | Residual learning baseline |
+| DenseNet121 | Dense feature propagation |
+| EfficientNet-B0 | Parameter-efficient architecture |
+| VGG16 | Classical CNN benchmark |
+
