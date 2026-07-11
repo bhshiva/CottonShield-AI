@@ -2,6 +2,11 @@
 
 > **Comparative Evaluation of Transfer Learning Models for Cotton Leaf Disease Detection**
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![Computer Vision](https://img.shields.io/badge/Computer-Vision-green)
+![Transfer Learning](https://img.shields.io/badge/Transfer-Learning-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 ---
 
 ## 📌 Abstract
