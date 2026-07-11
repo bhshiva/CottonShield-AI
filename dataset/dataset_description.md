@@ -20,20 +20,3 @@ Computationally Light Deep Learning Framework to Recognize Cotton Leaf Diseases.
 
 ---
 
-# 📂 Dataset
-
-| Property | Value |
-|----------|-------|
-| Crop | Cotton |
-| Total Images | 1711 |
-| Classes | 4 |
-| Source | Kaggle (Serosh Karim) |
-
-### Disease Classes
-
-- Healthy
-- Bacterial Blight
-- Curl Virus
-- Fusarium Wilt
-
-The dataset contains field images collected under real-world conditions, making it suitable for benchmarking transfer learning models for agricultural disease classification.
